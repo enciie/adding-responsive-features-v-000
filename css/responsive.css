@@ -70,6 +70,22 @@
     -webkit-column-count: 1;
     column-count: 1;
   }
+}
 
+@media only screen and (max-width: 700px) {
 
+  /* added hamburger icon to html */
+  /* <a class="menu-icon">&#9776;</a> */
+
+  #navbar nav a {
+    display: none; /* hides all the navbar links */
+  }
+
+  #navbar nav a.menu-icon {
+    display: block;
+    float: right;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    width: auto;
+  }
 }
