@@ -65,4 +65,11 @@
     padding-bottom: 20px; /* space on bottom of elements */
   }
 
+  .col-3 p { /* all p with col-3 class */
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+
+
 }
