@@ -4,7 +4,7 @@
     width: 90%;
   }
 
-  #social {
+  #social { /* moves the social icons */
     position: absolute;
     top: 82px;
     right: 4%;
@@ -22,16 +22,23 @@
     font-size: 85%; /* Overall text 85% smaller */
   }
 
-  #logo h1 {
+  #logo h1 { /* reduces the logo size from 45 to 35px */
   width: 35px;
   height: 35px;
   }
 
-  #logo h2 {
+  #logo h2 { /* reduces the logo font size */
     font-size: 2.2em;
   }
 
   #social {
-    top: 72px;
+    top: 72px; /* moves the social elements up */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  #navbar nav a { /*adjusting the links in the navbar */
+    font-size: 0.9em;
   }
 }
