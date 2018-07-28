@@ -60,4 +60,9 @@
     border: 0; /* removes the border */
   }
 
+  #details div { /*changing the bottom details div.. contact/correspondene/links) */
+    height: auto;
+    padding-bottom: 20px;
+  }
+
 }
